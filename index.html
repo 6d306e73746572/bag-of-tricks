@@ -18,8 +18,6 @@ $("#s").submit(function(e) {
   $("#container").jstree(true).search($("#q").val());
 });
 </script>
-<br>
-
 <div id="container">
   <ul>
     <li>Bag Of Tricks - Cheats and Tools
@@ -48,7 +46,15 @@ $("#s").submit(function(e) {
 </div>
 <script>
 $(function() {
-  $('#container').jstree();
+  $('#container').jstree({
+  "core" : {
+    "multiple" : true,
+    "themes" : {
+      "dots" : false
+    }
+  },
+  "plugins" : ["search"]
+});
 });
 </script>
 
