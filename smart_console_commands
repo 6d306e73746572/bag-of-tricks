@@ -76,7 +76,7 @@ kai_skip                                                              Use AI to 
 kill                                                                  (no description)
 kill_all                                                              (no description)
 list                                                                  lists all currently registered console variables
-list_all_quests                                                       (no description)
+list_all_quests                                                       copies all quest and objectives to your clipboard
 list_buffs                                                            (no description)
 list_flags                                                            (no description)
 list_game_presets                                                     (no description)
